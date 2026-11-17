@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "works-on-my-prompt"
+version = "0.1.0"
+description = "Broken AI systems to fix, graded offline: prompt caching, RAG, agents, LLM judges and eval statistics."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "0xAgentDev"}]
+keywords = ["llm", "ai-engineering", "evals", "rag", "agents", "exercises"]
+
+[project.scripts]
+womp = "womp.cli:main"
+
+[project.urls]
+Repository = "https://github.com/0xAgentDev/works-on-my-prompt"
+
+[tool.setuptools]
+packages = ["womp"]

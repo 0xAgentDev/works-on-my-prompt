@@ -1,0 +1,15 @@
+{
+  "title": "The judge says yes",
+  "summary": "The LLM judge passes almost every answer. The people who read the answers disagree.",
+  "topic": "evals · LLM judge",
+  "level": "medium",
+  "minutes": 40,
+  "pass_score": 80,
+  "rubric": [
+    {"id": "metrics", "title": "agreement() reports TPR, TNR and kappa correctly", "points": 20},
+    {"id": "tnr", "title": "The judge fails the answers people marked wrong", "points": 30},
+    {"id": "tpr", "title": "The judge passes the answers people marked right", "points": 20},
+    {"id": "robust", "title": "A reply that cannot be read never counts as a pass", "points": 20},
+    {"id": "tests", "title": "Your tests pass on the fix and fail on the original", "points": 10}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Done means done",
+  "summary": "The refund agent tells customers their refund was issued. Payments has no record of it.",
+  "topic": "agents · tool use",
+  "level": "medium",
+  "minutes": 45,
+  "pass_score": 80,
+  "rubric": [
+    {"id": "happy", "title": "Ordinary refunds still go through", "points": 10},
+    {"id": "honest", "title": "No customer is told about a refund that did not happen", "points": 25},
+    {"id": "recover", "title": "The agent recovers from its own bad tool calls", "points": 20},
+    {"id": "budget", "title": "Every conversation ends within its step budget", "points": 15},
+    {"id": "policy", "title": "Refunds over the limit wait for a human", "points": 20},
+    {"id": "tests", "title": "Your tests pass on the fix and fail on the original", "points": 10}
+  ]
+}

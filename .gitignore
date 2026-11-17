@@ -1,0 +1,13 @@
+# your working copies and progress
+work/
+
+# benchmark output
+womp-bench.json
+
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.DS_Store

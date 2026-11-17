@@ -1,0 +1,15 @@
+{
+  "title": "The bill tripled",
+  "summary": "Traffic is flat, the model is the same, and the LLM bill more than tripled overnight.",
+  "topic": "cost · prompt caching",
+  "level": "easy",
+  "minutes": 25,
+  "pass_score": 75,
+  "rubric": [
+    {"id": "stable_prefix", "title": "Unrelated requests share a cached prefix", "points": 30},
+    {"id": "complete", "title": "The model still receives everything it needs", "points": 20},
+    {"id": "conversations", "title": "Long conversations stay cached", "points": 25},
+    {"id": "bill", "title": "The bill for a held-out day is back under budget", "points": 15},
+    {"id": "tests", "title": "Your tests pass on the fix and fail on the original", "points": 10}
+  ]
+}

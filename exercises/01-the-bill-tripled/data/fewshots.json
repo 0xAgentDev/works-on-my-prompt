@@ -1,0 +1,22 @@
+[
+  {
+    "user": "How do I authenticate a request?",
+    "assistant": "Send your API key as a bearer token in the Authorization header. Keys are created in the dashboard under Settings, API keys, and can be scoped to one project. Source: guides/authentication."
+  },
+  {
+    "user": "What does error 429 mean?",
+    "assistant": "You sent more requests than your plan allows in the current window. Wait for the number of seconds in the Retry-After header, then send the request again. Limits per plan are listed on reference/limits. Source: reference/errors."
+  },
+  {
+    "user": "Is the v1 batch endpoint still supported?",
+    "assistant": "Which API version are you on? Batch behaviour changed between v1 and v2, and v1 has an end-of-support date that depends on your plan. Source: guides/batch."
+  },
+  {
+    "user": "Can I get a webhook when a batch job finishes?",
+    "assistant": "Yes. Register an endpoint for the batch.completed event and Meridian sends a signed POST when the job ends. Verify the signature with your webhook secret before trusting the payload. Source: guides/webhooks."
+  },
+  {
+    "user": "How do I raise my rate limit without upgrading?",
+    "assistant": "The documentation does not describe a way to raise limits outside of a plan change. I can open a support ticket if you want to ask about an exception. Source: reference/limits."
+  }
+]

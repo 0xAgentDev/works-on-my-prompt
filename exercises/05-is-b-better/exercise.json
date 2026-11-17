@@ -1,0 +1,15 @@
+{
+  "title": "Is B better?",
+  "summary": "Prompt B beat prompt A by five points on the eval. The last winner made production worse.",
+  "topic": "evals · statistics",
+  "level": "hard",
+  "minutes": 50,
+  "pass_score": 80,
+  "rubric": [
+    {"id": "noise", "title": "Does not ship a prompt that is no better, or worse", "points": 30},
+    {"id": "power", "title": "Ships a prompt that really is better", "points": 20},
+    {"id": "slices", "title": "Catches a regression hidden inside a better average", "points": 25},
+    {"id": "interval", "title": "Reports an interval that contains the truth", "points": 15},
+    {"id": "tests", "title": "Your tests pass on the fix and fail on the original", "points": 10}
+  ]
+}

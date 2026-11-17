@@ -1,0 +1,15 @@
+{
+  "title": "The answer is in the docs",
+  "summary": "The eval says 100%. Staff say the helpdesk bot gets the handbook wrong and makes things up.",
+  "topic": "RAG · retrieval",
+  "level": "medium",
+  "minutes": 45,
+  "pass_score": 85,
+  "rubric": [
+    {"id": "accuracy", "title": "Held-out questions are answered correctly", "points": 35},
+    {"id": "grounded", "title": "Nothing is made up, even when the handbook is silent", "points": 20},
+    {"id": "recall", "title": "Retrieval returns the passage that holds the answer", "points": 20},
+    {"id": "budget", "title": "Every prompt fits the model's context", "points": 15},
+    {"id": "tests", "title": "Your tests pass on the fix and fail on the original", "points": 10}
+  ]
+}
